@@ -1,4 +1,5 @@
 (ns zk-web.server
+  (:gen-class :main true)
   (:require [noir.server :as server]
             [zk-web.conf :as conf]
             ))
